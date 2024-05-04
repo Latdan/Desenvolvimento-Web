@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(#00b2aa, #ecdeed);
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#boloMorango {
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+}
+
+#boloChocolate {
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+}
+
+#boloCenoura {
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+}
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h4{
+    font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+}
+
+button{
+    border: none;
+    border-radius: 10%;
+    background: linear-gradient(#6a5985, #ff5100);
+    color: white;
+}
+
+button:hover{
+    border: none;
+    border-radius: 10%;
+    background: linear-gradient(#8052ca, #131212);
+    color: white;
+}
