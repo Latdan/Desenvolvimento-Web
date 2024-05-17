@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(50, 54, 58);
+    color: white;
+}
+
+.barra{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 100px;
+    justify-content: space-evenly;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    font-size: 12px;
+    transition: 0.5s;
+
+}
+
+p:hover{
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+.containers{
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.caixas{
+    width: 300px;
+    height: 500px;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button{
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: rgb(40, 208, 250);
+    transition: 0.5s;
+    color: black;
+}
